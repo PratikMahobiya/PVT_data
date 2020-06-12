@@ -1,0 +1,26 @@
+<html>
+
+	<head>
+		<meta name= "Geetanjali" containt = "Form Tag">
+		<title> Form Tag </title>
+	</head>
+	
+	<body>
+	
+		<form>
+		
+			Name :<input type= "text">
+			<br/> <br/>
+			Passwoed : <input type = "password">
+			<br/><br/>
+			fees Paid (CheckBox] : <input type = "CheckBox">
+			<br/><br/>
+			<u><i><b>Hobbies :</b></i></u> 
+			Reading : <input type = "CheckBox">
+			Writting: <input type = "CheckBox">
+			Watching Movies : <input type = "CheckBox">
+		
+		</form>
+	</body>
+
+</html>

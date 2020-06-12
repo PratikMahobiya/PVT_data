@@ -1,0 +1,67 @@
+<html>
+
+	<head>
+		<meta name = "Geetanjali" containt = "Table">
+		<title> Table Assignment 7 </title>
+	</head>
+
+	<body>
+	
+		<table border = "2">
+		
+			<tr>
+				<th colspan = "3"> MY DAILY MENU </th>
+			</tr>	
+			<tr>
+				<th rowspan = "3">
+				<table>
+					<tr>
+						<td> M </td>
+					</tr>
+					<tr>
+						<td> O </td>
+					</tr>
+					<tr>
+						<td> N </td>
+					</tr>
+					<tr>
+						<td> D </td>
+					</tr>
+					<tr>
+						<td> A </td>
+					</tr>
+					<tr>
+						<td> Y </th>
+					</tr>
+				</table>
+				</th>
+				
+				<td> Breakfast  </td>
+				<td> Orange juice  <br>
+					 Toast <br>
+					 Black Coffee
+				</td>
+			</tr>
+			
+			<tr>
+					<td> Lunch </td>
+					<td> Tuna sandwicg <br>
+						 Apple
+					</td>		
+			</tr>
+			
+			<tr>
+					<td> Dinner </td>
+					<td> Hamburgurger <br>
+						 steak <br>
+						 Mashed <br>
+						 potatoes <br>
+						 Green beans <br>
+						 Jello
+					</td>		
+			</tr>
+		</table>
+	
+	</body>
+	
+</html>

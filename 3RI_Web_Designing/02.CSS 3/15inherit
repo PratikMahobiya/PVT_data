@@ -1,0 +1,30 @@
+<html>
+		<head>
+		
+			<style>
+				
+				b
+				{
+					color: blue;
+				}
+				.a b
+				{
+					color:inherit;
+				}
+				
+			</style>
+		
+		</head>
+		
+		
+		<body>
+		
+			<p class="a"> Hello <b> EveryBody! </b> </p> <br/>
+			<p > Hello <b> EveryBody! </b> </p> <br/>
+			<p class="a"> Hello <b> EveryBody! </b> </p> <br/>
+			<p > Hello <b> EveryBody! </b> </p> <br/>
+			
+		
+		</body>
+
+</html>

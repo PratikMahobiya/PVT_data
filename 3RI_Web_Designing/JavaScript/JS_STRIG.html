@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript</title>
+	<script type="text/javascript">
+		function str_fun(argument) {
+			var str1="This is String....Using Double Quotes!!!<br><br>";
+			var str2="This is String....Using Single Quotes!!!<br><br>";
+			document.write(str1)
+			document.write(str2)
+		}
+		function str_fun_m2(argument) {
+			var str1=new String("This is String....Using new keword Quotes!!!<br><br>");
+			document.write(str1)
+		}
+		function str_double_equaltofun(argument) {
+			var str1="Hello"
+			var str2="Hello"
+			document.write(str1==str2)
+		}
+		function str_triple_equaltofun(argument) {
+			var str1="Hello"
+			var str2="Hello"
+			var str3=new String("Hello")
+			document.write(str1===str2)
+			document.write(str1===str3)
+		}
+		function str_length(argument) {
+			var str1="Hello";
+			document.write("Length of str="+str1+" is "+str1.length);
+		}
+		function str_index(argument) {
+			var str1="Hello";
+			document.write("index of e in <br>"+str1+" is <br>"+str1.indexOf('e'));
+		}
+		function str_L_index(argument) {
+			var str1="Hello";
+			document.write("Last index of l in <br>"+str1+" is <br>"+str1.lastIndexOf('l'));
+		}
+		function str_search(argument) {
+			var str1="Hello world in java";
+			document.write("Searching of in <br>"+str1+" is <br>"+str1.search("in"));
+		}
+		function str_slice(argument) {
+			var str1="Hello world in java";
+			document.write("Slicing of <br>"+str1+" is <br>"+str1.slice(2,8));
+		}
+		function str_substring(argument) {
+			var str1="Hello world in java";
+			document.write("Substring of <br>"+str1+" is <br>"+str1.substr(-8)+"<br><br>");
+			document.write("Substring of <br>"+str1+" is <br>"+str1.substring(-8)+"<br><br>");
+			document.write("Substring of <br>"+str1+" is <br>"+str1.substring(0,7)+"<br><br>");
+		}
+		function str_replace(argument) {
+			var str1="Basic Javascript";
+			document.write(str1+" replace Basic to Advance "+str1.replace("Basic","advance"));
+		}
+		function str_upper(argument) {
+			var str1="hello world in java";
+			document.write("Befor <br>"+str1+" After <br>"+str1.toUpperCase());
+		}
+		function str_lower(argument) {
+			var str1="HELLO WORLD";
+			document.write("Befor <br>"+str1+" After <br>"+str1.toLowerCase());
+		}
+		function str_charAt(argument) {
+			var str1="HELLO WORLD";
+			document.write("Char at 3 in <br>"+str1+" is <br>"+str1.charAt(3));
+		}
+		function str_charCodeAt(argument) {
+			var str1="HELLO WORLD";
+			document.write("Char Code L is <br>"+str1.charCodeAt(3));
+		}
+
+		console.log("hello...!!! Please Debug Here...!!!");
+	</script>
+</head>
+<body>
+	<form action="#">
+		<button onclick="str_fun();">CLick here......To See String.!!!</button><br>
+		<button onclick="str_fun_m2();">CLick here......To See Method 2= String.!!!</button><br>
+		<button onclick="str_double_equaltofun();">CLick here..for d_equalto.!!!</button><br>
+		<button onclick="str_triple_equaltofun();">CLick here..for T_equalto.!!!</button><br>
+		<button onclick="str_length();">CLick here..for Length.!!!</button><br>
+		<button onclick="str_index();">CLick here..for Index.!!!</button><br>
+		<button onclick="str_L_index();">CLick here..for L_index.!!!</button><br>
+		<button onclick="str_search();">CLick here..for search.!!!</button><br>
+		<button onclick="str_slice();">CLick here..for slice.!!!</button><br>
+		<button onclick="str_substring();">CLick here..for substr.!!!</button><br>
+		<button onclick="str_replace();">CLick here..for repale.!!!</button><br>
+		<button onclick="str_upper();">CLick here..for upperrcase.!!!</button><br>
+		<button onclick="str_lower();">CLick here..for Lowercase.!!!</button><br>
+		<button onclick="str_charAt();">CLick here..for Char At.!!!</button><br>
+		<button onclick="str_charCodeAt();">CLick here..for Char Code At.!!!</button><br>
+	</form>
+	
+</body>
+</html>

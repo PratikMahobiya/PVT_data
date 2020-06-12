@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DISPLAY DATA</title>
+</head>
+<body>
+	<table border="1" width="40%">
+		{% csrf_token %}
+		<tr>
+			<th>EMP ID</th>
+			<th>EMP NAME</th>
+			<th>EMP EMAIL</th>
+			<th>EMP CONTACT</th>
+		</tr>
+		{% for emp in e %}
+		<tr>
+			<td>{{ emp.eid }}</td>
+			<td>{{ emp.ename }}</td>
+			<td>{{ emp.eemail }}</td>
+			<td>{{ emp.econtact }}</td>
+		</tr>
+		{% endfor %}
+	</table>
+</body>
+</html>

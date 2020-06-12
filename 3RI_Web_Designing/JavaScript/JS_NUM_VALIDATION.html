@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript</title>
+	<script type="text/javascript">
+		function validation(argument) {
+			var no=document.myform.num.value;
+			var dropdownval=document.getElementById('v_drop').value;
+			var chkboxval=document.getElementsByName('chkbox');
+			var i,counter=0;
+
+			for (i = 0; i < chkboxval.length; i++) {
+				if(chkboxval[i].checked){
+					counter++;
+				}
+			}
+
+			if (isNaN(no) || no=="") {
+				document.getElementById('numloc').innerHTML="Please enter number"
+				return false;
+			}
+			else if (no.length!=10) {
+					document.getElementById('numloc').innerHTML="Please 10 digit enter number"
+					return false;
+				}
+			else if (dropdownval.toUpperCase() == "select".toUpperCase()) {
+				document.getElementById('numloc').innerHTML="";
+				document.getElementById('dropdown_err').innerHTML="Please any option";
+				return false;
+			}
+			else if (counter==0) {
+				document.getElementById('chkbox_err').innerHTML="Please select any box";
+				return false;
+			}
+			else
+				return true;
+		}
+		
+		console.log("hello...!!! Please Debug Here...!!!");
+	</script>
+</head>
+<body>
+	<h1>Num & dropdown validation</h1>
+	
+	<form onsubmit="return validation();" name="myform">
+		Number: <input type="text" name="num">
+		<span id="numloc"></span><br>
+		<select id="v_drop">
+			<option>select</option>
+			<option>A..!!</option>
+			<option>B..!!</option>
+			<option>C..!!</option>
+			<option>D..!!</option>
+		</select>
+		<span id="dropdown_err"></span><br>
+		<input type="checkbox" name="chkbox" > I have a bike<br>
+		<input type="checkbox" name="chkbox" > I have a car<br>
+		<input type="checkbox" name="chkbox" > I have a Ship<br>
+		<span id="chkbox_err"></span><br>
+		<input type="Submit" value="Submit"><br>
+	</form>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<html>
+
+	<head>
+		<meta name = "Geetanjali" contain = "Table 1">
+		<title> Table assignment 1 </title>
+	</head>
+	
+	<body>
+		
+		<table border = "1">
+			
+			<tr>
+				<th rowspan = "2"> EmpNo </th>
+				<th colspan = "4"> Marks </th>
+			</tr>
+			
+			<tr>
+				<th> Sec A </th>
+				<th> Sec B </th>
+				<th> Sec C </th>
+				<th> Total </th>
+			</tr>
+			
+			<tr>
+				<td> 1 </td>
+				<td> 1 </td>
+				<td> 2 </td>
+				<td> 3 </td>
+				<td> 6 </td>
+			</tr>
+			
+			<tr>
+				<td> 2 </td>
+				<td> 4 </td>
+				<td> 5 </td>
+				<td> 6 </td>
+				<td> 15 </td>
+			</tr>
+			
+			<tr>
+				<td> 3 </td>
+				<td> 7 </td>
+				<td> 8 </td>
+				<td> 9 </td>
+				<td> 24 </td>
+			</tr>
+			
+	</body>
+
+</html>

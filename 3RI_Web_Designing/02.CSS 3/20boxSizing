@@ -1,0 +1,29 @@
+<html>
+
+	<head>
+	
+			<style>
+					*
+					{
+						box-sizing:border-box;
+					}
+					p
+					{
+						width:400px;
+						height:300px;
+						background-color:lightcoral;
+						padding:30px;
+					}
+					
+			</style>
+	</head>
+	
+	<body>
+		<div>
+		<p> Box Sizing with border box is vry important. </p>
+		</div>
+	
+
+	</body>
+
+</html>

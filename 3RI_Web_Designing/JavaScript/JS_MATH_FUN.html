@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript</title>
+	<script type="text/javascript">
+		function m_sqrt(argument) {
+			var x=25;
+			document.write("sqrt of "+x+" is = "+Math.sqrt(25));
+		}
+		function m_random(argument) {
+			document.write("random value is = "+Math.random());
+		}
+		function m_pow(argument) {
+			document.write("Power of 2 is = "+Math.pow(2,3));
+		}
+		function m_floor(argument) {
+			document.write("Floor value of 2.6 is = "+Math.floor(2.6));
+		}
+		function m_ceil(argument) {
+			document.write("Ceil value of 2.6 is = "+Math.ceil(2.6));
+		}
+		function m_round(argument) {
+			document.write("Round value of 2.668 is = "+Math.round(2.668));
+		}
+		function m_round_random(argument) {
+			document.write("Round Random value b/w 1 to 10 is = "+Math.round(Math.random()*10)+"<br>");
+			document.write("Used from Otp purpose..")
+		}
+		function m_min(argument) {
+			var x=(20,15,45,78,9,56,5,64,13,25,3,58);
+			document.write(Math.min(10,20,30,4,45));
+			document.write("min value of "+x+" is = "+Math.min(x));
+		}
+		function m_max(argument) {
+			var x=[20,15,45,78,9,56,5,64,13,25,3];
+			document.write("max value of "+x+" is = "+Math.max(x));
+		}
+
+		console.log("hello...!!! Please Debug Here...!!!");
+	</script>
+</head>
+<body>
+	<form action="#">
+		<button onclick="m_sqrt();">CLick here..sqrt</button><br>
+		<button onclick="m_random();">CLick here..random</button><br>
+		<button onclick="m_pow();">CLick here..pow</button><br>
+		<button onclick="m_floor();">CLick here..floor</button><br>
+		<button onclick="m_ceil();">CLick here..ceil</button><br>
+		<button onclick="m_round();">CLick here..round</button><br>
+		<button onclick="m_round_random();">CLick here..round_random</button><br>
+		<button onclick="m_min();">CLick here..min</button><br>
+		<button onclick="m_max();">CLick here..max</button><br>
+	</form>
+	
+</body>
+</html>

@@ -1,0 +1,27 @@
+
+<html>
+	<head>
+			<title> Assignment No : 1 </title>
+			<meta name = "assignment 1" containt = "">
+	</head>
+	<body>
+	
+			<ul>
+				<b><li>HTML</li></b>
+					<ol>
+						<li>Meta Tag</li>
+						<li>anchor Tag</li>
+					</ol>
+				<b><li>ASP</li></b>
+					<ul>
+						<li>Arithmatic Operators</li>
+						<li>Relational Operators</li>
+					</ul>
+				<b><li>JavaScrip</li></b>
+	
+			</ul>
+			
+		
+	</body>
+
+</html>

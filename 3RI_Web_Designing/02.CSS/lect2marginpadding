@@ -1,0 +1,50 @@
+<html>
+
+	<head>
+			<meta name = "Geetanjali" containt = "Lecture 2">
+			<meta name = "Font CSS " containt = " font and border CSS">
+			<title> Internal CSS Properties</title>
+			
+				<style>
+				
+						p
+						{
+							text-align : justify;
+							margin : 14px 14px 14px 14px;
+							/* margin-left : 10px*/
+							border : 5px solid red;
+							padding : 14px 14px 14px 14px;
+							/* padding-left: 10px*/
+						}
+								
+				</style>
+					
+	</head>
+	
+	<body>
+	
+		
+			<p> 6. Write a program to find the cube upto the given numbers by the user.
+			7. Write a program to find the sum of digits of a number.
+			8. Write a program to find whether a number entered by the user is a palindrome or not(example—121,151,131)
+			9. Write a program to find the number of digits entered by the user.
+			10.Write a program to input student marks by condition :
+			a) Marks is greater than 0 and less than 50--FAIILED
+			b) Marks is greater than 50 and less than 75--1st Class
+			c) Marks greater than 75 –and less than 100 Distinction
+			11. Generate Fibonacci series of a given range. (example 1 1 2 3 8…)
+			6. Write a program to find the cube upto the given numbers by the user.
+			7. Write a program to find the sum of digits of a number.
+			8. Write a program to find whether a number entered by the user is a palindrome or not(example—121,151,131)
+			9. Write a program to find the number of digits entered by the user.
+			10.Write a program to input student marks by condition :
+			a) Marks is greater than 0 and less than 50--FAIILED
+			b) Marks is greater than 50 and less than 75--1st Class
+			c) Marks greater than 75 –and less than 100 Distinction
+			11. Generate Fibonacci series of a given range. (example 1 1 2 3 8…) 
+		</p>
+		
+		
+	</body>
+	
+</html>

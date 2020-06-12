@@ -1,0 +1,75 @@
+<html>
+
+	<head>
+			<meta name = "Geetanjali" containt = "Lecture 5">
+			<meta name = "Image Tag " containt = "Input Element and its Attributes">
+			<title> Form Tag 2 </title>
+	</head>
+	
+	<body>
+		<form>
+		
+			Address :<textarea>
+				comments:
+				 vhvsdvfuhsdbuhbdivjbxij
+			</textarea> <br/><br/>
+			Address :<textarea rows = "5" cols = "20">
+				comments:
+				 vhvsdvfuhsdbuhbdivjbxij
+			</textarea><br/><br/>
+			
+			<label>Address </label>:<textarea rows = "5" cols = "20">
+				comments:
+				 vhvsdvfuhsdbuhbdivjbxij
+			</textarea>
+			
+			<button> Save </button> <br/> <br/>
+			
+			<select>
+				
+					<option> item 1 </option>
+					<option> item 2 </option>
+					<option> item 3 </option>
+					<option> item 4 </option>
+					<option> item 5 </option>
+			
+			</select>
+			<br/> <br/>
+			Dropdown:
+			<select multiple = "multiple">
+				
+					<option> item 1 </option>
+					<option> item 2 </option>
+					<option> item 3 </option>
+					<option> item 4 </option>
+					<option> item 5 </option>
+			
+			</select>
+			<br/> <br/>
+			
+			Select Option :<input type = "text" list = "mylist">
+								<datalist id = "mylist">
+					
+									<option> item 1 </option>
+									<option> item 2 </option>
+									<option> item 3 </option>
+									<option> item 4 </option>
+									<option> item 5 </option>
+				
+								</datalist>
+			<br/> <br/> <br/> <br/>	
+			
+			<fieldset>
+					<legend> Address : <legend>
+							State :<input type = "text"> <br/><br/>
+							City :<input type = "text"> <br/><br/>
+							Pin No :<input type = "Number"> <br/><br/>
+							Address Line 1 :<input type = "text"> <br/><br/>
+							Address Line 2 :<input type = "text"> <br/><br/>
+
+			</fieldset>
+			
+		</form>
+	</body>
+
+</html>

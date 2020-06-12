@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <h1>Create Employee</h1>
+    <form action="../createEmp" method="POST">
+        {% csrf_token %}
+       Employee No: {{form.empid}}<br/><br/>
+        Employee Name:{{form.ename}}<br/><br/>
+       Employee Email: {{form.email}}<br/><br/>
+       Employee Contact: {{form.econtact}}<br/><br/>
+        <input type="submit">
+
+    </form>
+
+</div>
+
+</body>
+</html>

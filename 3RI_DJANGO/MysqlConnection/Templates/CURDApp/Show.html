@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Employee Details</h1>
+<table border="1">
+    {%if empData%}
+    <tr>
+        <th>Emp No</th>
+        <th>Emp Name</th>
+        <th>Emp Email</th>
+        <th>Emp Contact</th>
+        <th>Update</th>
+        <th>Delete</th>
+    </tr>
+    {% for emp in empData%}
+    <tr>
+        <td>{{emp.empid}}</td>
+        <td>{{emp.ename}}</td>
+        <td>{{emp.email}}</td>
+        <td>{{emp.econtact}}</td>
+        <td><a href="editEmp/{{emp.id}}">Update</a></td>
+        <td><a href="deleteEmp/{{emp.id}}">Delete</a></td>
+    </tr>
+    {%endfor%}
+    {%else%}
+    <p>Record does not exist.</p>
+    {%endif%}
+</table>
+<a href="../createEmp">Add Employee</a>
+<a href="../logout">Logout</a>
+</body>
+</html>

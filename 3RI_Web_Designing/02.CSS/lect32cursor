@@ -1,0 +1,147 @@
+<html>
+
+	<head>
+			<meta name = "Geetanjali" containt = "Lecture 4">
+			<meta name = "div Tag " containt = " ">
+			<title> CSS DIV Tag 3 </title>
+			
+			<style>
+			
+			.crosshair
+			{
+				border:1px solid black;
+				width:100px;
+				height:50px;
+				background-color: red;
+				cursor: crosshair;	
+				display : inline-block;
+			}
+			.help
+			{
+				border:1px solid black;
+				width:100px;
+				height:50px;
+				background-color: green;
+				cursor: help;
+				display : inline-block;
+			}
+			.wait
+			{
+				border:1px solid black;
+				width:100px;
+				height:50px;
+				background-color: red;
+				cursor: wait;
+				display : inline-block;
+			}
+			.cell
+			{
+				border:1px solid black;
+				width:100px;
+				height:50px;
+				background-color: green;
+				cursor: cell;
+				display : inline-block;
+			}
+			.pointer
+			{
+				border:1px solid black;
+				width:100px;
+				height:50px;
+				background-color: red;
+				cursor: pointer;
+				display : inline-block;
+			}
+			.grab
+			{
+				border:1px solid black;
+				width:100px;
+				height:50px;
+				background-color: green;
+				cursor: grab;
+				display : inline-block;
+			}
+			.grabbing
+			{
+				border:1px solid black;
+				width:100px;
+				height:50px;
+				background-color: red;
+				cursor: grabbing;
+				display : inline-block;
+			}
+			.copy
+			{
+				border:1px solid black;
+				width:100px;
+				height:50px;
+				background-color: red;
+				cursor: copy;
+				display : inline-block;
+			}
+			.progress
+			{
+				border:1px solid black;
+				width:100px;
+				height:50px;
+				background-color: green;
+				cursor: progress;
+				display : inline-block;
+			}
+			.grabbing
+			{
+				border:1px solid black;
+				width:100px;
+				height:50px;
+				background-color: blue;
+				cursor: grabbing;
+				display : inline-block;
+			}
+			.move
+			{
+				border:1px solid black;
+				width:100px;
+				height:50px;
+				background-color: red;
+				cursor: move;
+				display : inline-block;
+			}
+			
+			
+			</style>
+	</head>
+	
+	<body>
+		<div class = "crosshair">
+				Crosshair.
+		</div>
+		<div class = "help">
+				Help.
+		</div>
+		<div class = "wait">
+				Wait.
+		</div>
+		<div class = "cell">
+				Cell.
+		</div>
+		<div class = "pointer">
+				Pointer.
+		</div>
+		<div class = "grab">
+				Grab.
+		</div>
+		<div class = "grabbing">
+				Grabbing.
+		</div>
+		<div class = "copy">
+				copy.
+		</div>
+		<div class = "progress">
+				progress.
+		</div>
+		<div class = "move">
+				move.
+		</div>
+	</body>
+	
+</html>	

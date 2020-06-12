@@ -1,0 +1,19 @@
+	Menu	
+1	|European                                |123
+2	|Mediterranean                           |245
+3	|North Indian                            |354
+4	|BBQ                                     |1200
+5	|Continental                             |1243
+6	|Mediterranean                           |523
+7	|Modern Indian                           |343
+8	|Asian                                   |533
+9	|Japanese                                |103
+10	|Thai                                    |32
+11	|Pan Asian                               |234
+----------------Bill-----------------------------
+North Indian                            354
+BBQ                                     1200
+Continental                             1243
+Mediterranean                           523
+Mediterranean                           245
+Your total= 3565

@@ -1,0 +1,46 @@
+<html>
+
+	<head>
+	
+		<style>
+		
+		#eg1
+		{
+		
+			border: 15px dotted black;
+			padding:25px;
+			background:aqua;
+			background-clip: border-box;
+		}
+		#eg2
+		{
+		
+			border: 15px dotted black;
+			padding:25px;
+			background:aqua;
+			background-clip: content-box;
+		}
+		#eg3
+		{
+		
+			border: 15px dotted black;
+			padding:25px;
+			background:aqua;
+			background-clip: padding-box;
+		}
+					
+		</style>
+	
+	<head>
+
+
+	<body>
+	
+		<div> <p id = "eg1"> Background Click. Work only with TEXT. </p> </div>
+		<div> <p id = "eg2"> Background Click. Work only with TEXT. </p> </div>
+		<div> <p id = "eg3"> Background Click. Work only with TEXT. </p> </div>
+	
+	
+	</body>
+
+</html>

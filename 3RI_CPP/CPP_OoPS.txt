@@ -1,0 +1,62 @@
+OOPS concepts:-
+
+1. Class:-
+	1. it is a blueprint.
+	2. class  is a collection of simmilar objects.
+	
+	synatx:-
+		access modifier class class_name
+		{
+			fields;
+			constructor;
+			methods;
+			  :
+			  :
+		}
+
+2. Object:-
+	-> instance of class.
+	-> object is a real world entity.
+	-> Object occupies space.
+	-> object consists of/property:-
+		a. Indentity:-
+		b. state/attribute:-
+		c. behaviour:-
+
+	syntax:
+		class_name  class_obj; / class_name  class_obj=new;
+
+3. Inheritance:
+	-> Base class-> Derivd Class
+	-> Super class-> Sub class
+	-> Parent class-> Child class
+	Type of Inhertiance:-
+		a. Single Inhertiance.
+		b. Multi-level Inheritance.
+		c. Multiple Inheritance.
+		d. Hierarical Inheritance.
+		e. Hybrid Inheritance.
+	Adv:-
+		1. Reusability.
+		2. Implement the polymorphism by using Inheritance.
+	Disadv:-
+		1. Tightlg coupled class create problems(changes in parent affect the childs).
+
+4. Polymorphism:-
+	Type of polymorphism:-
+		a.  Compiletime polymorphism:-
+					Different situation-> behaves differently.
+					Static Polymorphism.
+					Early Binding.
+		b.  Runtime Polymorphism:-
+					Dynamic polymorphism.
+					Late polymorphism.
+		Eg:- Method Overloading and Method Riding.
+
+5. Abstraction:-
+	-> Abstraction is nothing but hiding the implementation details highlighting the set
+	of services.
+	-> Security.
+
+6. Encapsulation:-
+	-> Wrapping of data.

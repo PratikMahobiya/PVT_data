@@ -1,0 +1,83 @@
+<html>
+
+	<head>
+		<meta name = "Geetanjali" containt = "Form 2">
+		<title> form Assignment 5 </title>
+	</head>
+	
+	<body>
+	
+			<form>
+			<fieldset>
+				<table style = "background-color : darkblue">
+				
+					<tr>
+							<th style= "background-color : orange" colspan = 2> Sign Up </th>
+					</tr>
+					<tr>
+							<td style = "color : yellow"> First Name </td>
+							<td> <input type = "text"> </td>
+					</tr>
+					<tr>
+							<td style = "color : yellow"> Last Name </td>
+							<td> <input type = "text"> </td>
+					</tr>
+					<tr>
+							<td style = "color : yellow"> Date Of Birth </td>
+							<td> <input type = "date"> </td>
+					</tr>
+					<tr>
+							<td style = "color : yellow"> Gender </td>
+							<td> <input type = "radio" name = "gender" >  Male
+							<input type = "radio" name = "gender" >  Female</td>
+					</tr>
+					<tr>
+							<td style = "color : yellow"> Email </td>
+							<td> <input type = "email"> </td>
+					</tr>
+					<tr>
+							<td style = "color : yellow"> Country </td>
+							<td> <input type = "text" list = "mylist">
+										<datalist id= "mylist">
+										
+											<option> India </option>
+											<option> USA </option>
+											<option> UK </option>
+											<option> Germany </option>
+											
+										</datalist>
+							</td>
+					</tr>
+					<tr>
+							<td style = "color : yellow"> Phone </td>
+							<td> <input type = "number"> </td>
+					</tr>
+					<tr>
+							<td style = "color : yellow" id = "password"> Password </td>
+							<td> <input type = "password"> </td>
+					</tr>
+					<tr>
+							<td style = "color : yellow" id = "password"> Confirm password </td>
+							<td> <input type = "password"> </td>
+					</tr>
+					<tr colspan = "2">
+							<td> </td>
+							<td> <input  type = "checkbox" style = "color : yellow"> I Agree to the Terms of use </td>
+					</tr>
+					<tr>
+						
+							<td colspan = "2" style = "background-color : orange"> 
+								&nbsp &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								&nbsp &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button style = "background-color : green"> Submit </button> 
+								<button style = "background-color : red"> Submit </button>
+							</td>
+							
+					</tr>
+	
+				</table>
+			</fieldset>
+			</form>
+	
+	</body>
+	
+</html>

@@ -1,0 +1,120 @@
+
+<html>
+	<head>
+			<title> list CSS </title>
+			<meta name = "CSS properties" containt = " list CSS">
+			
+				<style>
+				
+				/* UNORDER LIST CSS */
+				
+				.a
+				{
+					list-style-type: disc;
+				}
+				.b
+				{
+					list-style-type: circle;
+				}
+				.c
+				{
+					list-style-type: square;
+				}
+				.d
+				{
+					list-style-type: none;
+				}
+				
+				
+				/* ORDER LIST CSS */
+				
+				.x
+				{
+					list-style-type: decimal;
+				}
+				.y
+				{
+					list-style-type: upper-alpha;
+				}
+				.z
+				{
+					list-style-type: lower-alpha;
+				}
+				.xy
+				{
+					list-style-type: upper-roman;
+				}
+				.yz
+				{
+					list-style-type: lower-roman;
+				}
+				
+				</style>
+	</head>
+	
+	<body>
+	
+		<h3>1.Chapter One</h3>
+			<ul class = "a">
+				<li >Section One</li>
+				<li >Section Two</li>
+				<li>Section Three</li>
+				<li>Section Four</li>
+			</ul>
+			<ul class = "b">
+				<li >Section One</li>
+				<li >Section Two</li>
+				<li>Section Three</li>
+				<li>Section Four</li>
+			</ul>
+			<ul class = "c">
+				<li >Section One</li>
+				<li >Section Two</li>
+				<li>Section Three</li>
+				<li>Section Four</li>
+			</ul>
+			<ul class = "d">
+				<li >Section One</li>
+				<li >Section Two</li>
+				<li>Section Three</li>
+				<li>Section Four</li>
+			</ul>
+			
+		<h3>2.Chapter Two</h3>
+		
+		<h3>3.Chapter Three</h3>
+		
+			<ol class = "x">
+				<li >Section One</li>
+				<li >Section Two</li>
+				<li>Section Three</li>
+				<li>Section Four</li>
+			</ol>
+			<ol class = "y">
+				<li >Section One</li>
+				<li >Section Two</li>
+				<li>Section Three</li>
+				<li>Section Four</li>
+			</ol>
+			<ol class = "z">
+				<li >Section One</li>
+				<li >Section Two</li>
+				<li>Section Three</li>
+				<li>Section Four</li>
+			</ol>
+			<ol class = "xy">
+				<li >Section One</li>
+				<li >Section Two</li>
+				<li>Section Three</li>
+				<li>Section Four</li>
+			</ol>
+			<ol class = "yz">
+				<li >Section One</li>
+				<li >Section Two</li>
+				<li>Section Three</li>
+				<li>Section Four</li>
+			</ol>
+		
+	</body>
+
+</html>

@@ -1,0 +1,39 @@
+<html>
+		<head>
+		
+			<style>
+				
+				.myimg
+				{
+					transform: translate(250px, 200px) rotate(180deg) scale(1.5) skew(0,-30deg);
+				}
+				img
+				{
+					transform: translate(200px, 200px) rotate(0deg) scale(1.5) skew(0,150deg);
+				}
+				.box
+				{
+					margin:50px;
+					width:108px;
+					height:136px;
+				}
+					
+				
+			</style>
+		
+		</head>
+		
+		
+		<body>
+			<div class="box"> 
+				<img src = "01.jpg" height="150px" width="150px">
+			</div>
+			<div>
+				<img class="myimg" src = "01.jpg" height="150px" width="150px">
+			</div>
+			
+			
+		
+		</body>
+
+</html>

@@ -1,0 +1,43 @@
+<html>
+
+	<head>
+			<meta name = "Geetanjali" containt = "Lecture 4">
+			<meta name = "div Tag " containt = " ">
+			<title> hyperlink properties CSS  </title>
+	
+				<style>
+				
+					a.link
+					{
+						color: red;
+					}
+					a.visited
+					{
+						color: green;
+					}
+					a.hover
+					{
+						color: blue;
+					}
+					a.active
+					{
+						color: yellow;
+					}
+				
+				
+				</style>
+				
+		
+			
+	</head>
+			
+		<body>	
+			
+			<a href="#">Home </a>
+			<a href="#">About Us </a>
+			<a href="#">contact </a>
+			<a href="#">Services </a>
+				
+		</body>
+	
+</html>	

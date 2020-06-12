@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>J_QUERY</title>
+	<script type="text/javascript" src="JS_JQUERY.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("button").click(function(){
+				$("a[href^=red]").addClass("A");
+				$("a[href*=lue]").addClass("B");
+				$("a[href$=jpg]").addClass("C");
+			});
+		});
+	</script>
+	<style type="text/css">
+		.A{
+			color: red;
+		}
+		.B{
+			color: blue;
+		}
+		.C{
+			color: green;
+		}
+	</style>
+</head>
+<body>
+	<a href="red.png">Red</a>
+	<a href="blue.png">Blue</a>
+	<a href="green.jpg">Green</a>
+	<button>Click Me..</button>
+</body>
+</html>

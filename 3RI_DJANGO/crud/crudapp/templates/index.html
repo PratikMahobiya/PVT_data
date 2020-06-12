@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORM</title>
+</head>
+<body>
+	<form action="/createemp" method="post">
+		{% csrf_token %}
+		<label>EMP ID: </label>
+		<input type="text" name="eid"><br><br>
+		<label>EMP Name: </label>
+		<input type="text" name="ename"><br><br>
+		<label>EMP Email: </label>
+		<input type="email" name="eemail"><br><br>
+		<label>EMP Contact: </label>
+		<input type="text" name="econtact"><br><br>
+		<button type="submit">Submit</button>
+	</form>
+</body>
+</html>

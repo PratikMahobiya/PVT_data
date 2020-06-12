@@ -1,0 +1,60 @@
+<html>
+
+	<head>
+	
+		<style>
+		
+		#a
+		{
+			background-color:orange;
+			width:200px;
+			height:200px;
+			border: 1px solid red;
+			
+			border-radius: 0px;
+			box-shadow: 10px 10px 10px gray;	
+		}
+		h1
+		{
+			text-shadow:10px 10px 10px gray; 
+		}
+		h2
+		{
+			text-shadow:10px 10px 2px tomato,20px 20px 2px yellow; 
+		}
+		#b
+		{
+			background-color:black;
+			width:200px;
+			height:200px;
+			border: 1px solid red;
+			
+			border-radius: 0px;
+			box-shadow: 10px 10px 5px red,20px 20px 5px yellow;	
+		}
+		h3
+		{
+			text-shadow:-10px -10px 2px tomato,-20px -20px 2px yellow; 
+		}
+		
+		</style>
+	
+	<head>
+
+
+	<body>
+	
+		<div id="a">  </div>
+		<h1> This is heading 1 </h1>
+		<h2> This is heading 2 </h2>
+		<div id="b">  </div>
+		
+		<br/><br/>
+		<h3> This is heading 3 </h3>
+		
+		
+	
+	
+	</body>
+
+</html>

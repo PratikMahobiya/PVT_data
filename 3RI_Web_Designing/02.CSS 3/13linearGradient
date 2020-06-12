@@ -1,0 +1,59 @@
+<html>
+		<head>
+		
+			<style>
+			
+				.a
+				{
+					background-image: linear-gradient(red,yellow);
+					width:200px;
+					height:200px;
+					border: 2px solid black;
+				}
+				.b
+				{
+					background-image: linear-gradient(to right,red,yellow);
+					width:200px;
+					height:200px;
+					border: 2px solid black;
+				}
+				.c
+				{
+					background-image: linear-gradient(to left,red,orange,yellow,green,blue,gray,violet);
+					width:200px;
+					height:200px;
+					border: 2px solid black;
+				}
+				.d
+				{
+					background-image: linear-gradient(to bottom left,red,yellow,pink,tomato);
+					width:200px;
+					height:200px;
+					border: 2px solid black;
+				}
+				.e
+				{
+					background-image: linear-gradient(to bottom right,red,yellow,aqua,blue);
+					width:200px;
+					height:200px;
+					border: 2px solid black;
+				}
+			
+			</style>
+		
+		</head>
+		
+		
+		<body>
+		
+			<div class="a"> </div> <br/>
+			<div class="b"> </div> <br/>
+			<div class="c"> </div> <br/>
+			<div class="d"> </div> <br/>
+			<div class="e"> </div> <br/>
+			<div class="f"> </div> <br/>
+			<div class="g"> </div> <br/>
+		
+		</body>
+
+</html>

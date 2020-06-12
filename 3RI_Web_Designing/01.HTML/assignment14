@@ -1,0 +1,78 @@
+<html>
+
+	<head>
+		<meta name = "Geetanjali" containt = "Form 2">
+		<title> form Assignment 3 </title>
+	</head>
+	
+	<body>
+	
+		<form>
+		
+			<table border = "1">
+			
+				<tr>
+					<th colspan = "2"> User Form </th>
+				</tr>
+				<tr>
+					<td> Enter Name : </td>
+					<td> <input type = "text"> </td>
+				</tr>
+				<tr>
+					<td> Enter Password : </td>
+					<td> <input type = "password"> </td>
+				</tr>
+				<tr>
+					<td> Enter Address : </td>
+					<td> <textarea rows = "5" cols = "15"> </textarea> </td>
+				</tr>
+				<tr>
+					<td> Select Games : </td>
+					<td> <input type = "checkbox"> Hockey <br/>
+						 <input type = "checkbox"> Football <br/>
+						 <input type = "checkbox"> Badminton <br/>
+						 <input type = "checkbox"> Cricket <br/>
+						 <input type = "checkbox"> volleyball <br/>
+					</td>
+				</tr>
+				<tr>
+					<td> Gender : </td>
+					<td> <input type = "radio" name = "gender"> Male 
+						 <input type = "radio" name = "gender"> Female 
+					</td>
+				</tr>
+				<tr>
+					<td> Select your Age : </td>
+					<td> <input type = "text" list = "mylist" placeholder = "Selct/ Enter age.."> 
+							<datalist id = "mylist" >
+								<option> 0 </option>
+								<option> 10 </option>
+								<option> 20 </option>
+								<option> 30 </option>
+								<option> 40 </option>
+							</datalist>
+					</td>
+				</tr>
+				<tr>
+					<td colspan= "2">
+						<input type = "file">
+					</td>
+				</tr>
+				<tr>
+					<td colspan= "2">
+						<button> Click Me </button>
+							<!--<input type = "submit"> -->
+						<button> ReSet </button>
+							<!--<input type = "reset"> -->
+						<button> Submitt Form </button>
+							<!--<input type = "submit"> -->
+					</td>
+				</tr>
+	
+			</table>
+	
+		</form>
+		
+	</body>
+	
+</html>

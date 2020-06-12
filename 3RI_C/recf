@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+	int a=4,x;
+	int fact();
+	x=fact(4);
+	printf("fact is : %d",x);
+}
+
+fact(int a)
+{
+	if (a==1)
+		return 1;
+	else
+		return a*fact(a-1);
+}

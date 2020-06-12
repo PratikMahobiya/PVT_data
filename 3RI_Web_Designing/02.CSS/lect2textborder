@@ -1,0 +1,62 @@
+<html>
+
+	<head>
+			<meta name = "Geetanjali" containt = "Lecture 2">
+			<meta name = "Font CSS " containt = " font and border CSS">
+			<title> Internal CSS Properties</title>
+			
+				<style type = "text/css">
+				
+					.a
+					{
+						
+						border : 10px solid red;
+					}	
+					.b
+					{
+						border : 10px dotted red;
+					}
+					.c
+					{
+						border : 10px double red;
+					}
+					.d
+					{
+						border : 10px groove red;
+					}
+					.e
+					{
+						border : 10px inset red;
+					}
+					.f
+					{
+						border : 10px outset red;
+					}
+								
+				</style>
+					
+	</head>
+	
+	<body>
+	
+		<div class = "a">
+			<p > Solid border </p>
+		</div> <br/><br/>
+		<div class = "b">
+			<p > Solid border </p>
+		</div><br/><br/>
+		<div class = "c">
+			<p > Solid border </p>
+		</div><br/><br/>
+		<div class = "d">
+			<p > Solid border </p>
+		</div><br/><br/>
+		<div class = "e">
+			<p > Solid border </p>
+		</div><br/><br/>
+		<div class = "f">
+			<p > Solid border </p>
+		</div><br/><br/>
+	</body>
+	
+</html>

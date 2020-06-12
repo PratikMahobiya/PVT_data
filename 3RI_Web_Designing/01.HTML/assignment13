@@ -1,0 +1,35 @@
+<html>
+
+	<head>
+		<meta name = "Geetanjali" containt = "Form 2">
+		<title> form Assignment 2 </title>
+	</head>
+	
+	<body>
+		
+		
+		<form>
+			<fieldset>
+				<legend> Shopping Address </legend>
+			
+				Name : <br/>
+				<input type = "text"> <br/>
+				
+				Address : <br/>
+				<input type = "text"> <br/>
+				
+				City : <br/>
+				<input type = "text"> <br/>
+				
+				State : <br/>
+				<input type = "text"> <br/>
+				
+				Zip: <br/>
+				<input type = "number"> <br/>
+			</fieldset>			
+		</form>
+		
+	
+	</body>
+	
+</html>	

@@ -1,0 +1,27 @@
+
+<html>
+
+	<meta name = "Geetanjali" containt = "List assignment">
+	<head> List </head>
+	
+	<body>
+	
+			<ul> 
+				<li> Class </li>
+				<ul>
+					<li>C and CPP <li>
+					<li> Front End </li>
+					<ul>
+						<li> HTML , CSS </li>
+						<li> Basic & Advance JAVASCRIPT </li>
+						<li> JQuery and Bootstap </li>
+					</ul>
+				</ul>
+				<li> Database </li>
+				<li> Communication Skills </li>
+			
+			</ul>
+	
+	</body>
+
+</html>

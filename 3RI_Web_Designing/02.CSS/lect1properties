@@ -1,0 +1,60 @@
+<html>
+
+	<head>
+			<meta name = "Geetanjali" containt = "Lecture 7">
+			<meta name = " CSS " containt = " Internal CSS">
+			<title> Internal CSS Properties</title>
+			
+				<style type = "text/css">
+				
+					body
+					{
+						height : 1500px;
+						background-attachment : fixed;
+						/* fixed, scroll*/
+						
+						background-color:black;
+						background-image : url("17.png");
+						background-size : 500px 500px;
+						
+						background-repeat : no-repeat; 
+						/*background-repeat : repeat-x ;*/
+						/*background-repeat : repeat-y ; */
+						/* repeat, no-repeat, repeat-x, repeat-y */
+						
+						background-position : top center;
+						/* center,top,bottom OR left,right,center */
+						
+					}
+					
+					.XYZ, h1
+					{
+						color:green;
+					}
+					
+					#XYZ
+					{
+						color:blue;
+					}
+				
+				</style>
+					
+	</head>
+	
+	<body>
+	
+		<p class = "XYZ">
+		hhdfhbd jhbuhgfuhsbdhf bhgihdfbahibd
+		</p>
+		
+		<p id = "XYZ">
+		hhdfhbd jhbuhgfuhsbdhf bhgihdfbahibd
+		</p>
+	
+		<h1> HTML/CSS <h1>
+		
+		
+
+	</body>
+	
+</html>

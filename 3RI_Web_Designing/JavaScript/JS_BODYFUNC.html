@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript</title>
+	<script type="text/javascript">
+
+		function submitfun()
+		{
+			alert("return ...!!");
+			return false;
+			
+		}
+		function  addition(a,b)
+		{
+			alert("<br>addition of "+a+" and "+b+" is :-"+(a+b));
+			return false;
+		}
+
+		function max(a,b)
+		{
+			if(a>b)
+			{
+				alert("max value between"+a+" and "+b+" is "+a);
+				return false;
+			}
+			else
+			{
+				alert("max value between"+a+" and "+b+" is "+b);
+				return false;
+			}
+		}
+
+		function test()
+		{
+			alert("Yipeee.....!!!!!");
+			return false;
+		}
+		console.log("hello...!!! Please Debug Here...!!!");
+	</script>
+</head>
+<!-- <body onload="addition(10,20)"> -->
+<body>
+	<form onsubmit="return submitfun();">
+		<button onclick="return max(20,30);">max</button>
+		<button ondblclick="return max(40,30);">dbl_Clk_max</button>
+		<button ondblclick="return test();">dbl_Clk_test</button>
+		<input type="submit">
+	</form>
+	
+</body>
+</html>

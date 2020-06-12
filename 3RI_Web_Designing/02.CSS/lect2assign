@@ -1,0 +1,129 @@
+<html>
+	<head>
+			<title> list CSS </title>
+			<meta name = "CSS properties" containt = " list CSS">
+			
+				<style>
+				
+					div
+					{
+						border : 3px solid red;
+						height : 50px;
+						width : 100px;
+						background-color: aqua;
+						display:inline-block;
+						/* none,inline,black, inline-block*/
+						padding : 5px;
+					}
+					
+					table,tr,th,td
+					{
+						border: 3px solid red;
+						border-collapse : collapse;
+					}
+					
+					table
+					{
+						width = 200px;
+						height = 200px;
+						caption-side : top;
+					}
+					
+					th,td
+					{
+						text-align : center;
+					}
+					
+					tr
+					{
+						background-color:gray;
+					}
+					tr:nth-child(even)
+					{
+						background-color:blue;
+					}
+					tr:nth-child(odd)
+					{
+						background-color:aqua;
+					}
+					/*tr:hover
+					{
+						background-color:orange;
+						font-size : 40px;
+					}*/
+					td:hover
+					{
+						background-color:orange;
+						font-size : 40px;
+					}
+					th
+					{
+						color:green;
+					}
+					
+					caption
+					{
+						font-size: 50px;
+						font-weight : bold;
+						font-style:italic;
+					}
+					
+					
+				</style>
+				
+	</head>
+	
+	<body>
+			<div><a href = "#"> Home </a> </div>
+			<div><a href = "#"> About Us  </a></div>
+			<div><a href = "#"> Contact Us </a> </div>
+			<div><a href = "#"> Sign Out </a></div>
+			
+			<br/><br/><br/>
+			
+			
+			<table>
+			
+				<caption> EMP Info. </caption>
+			
+			<tr>
+				<th rowspan = "2"> EmpNo </th>
+				<th colspan = "4"> Marks </th>
+			</tr>
+			
+			<tr>
+				<th> Sec A </th>
+				<th> Sec B </th>
+				<th> Sec C </th>
+				<th> Total </th>
+			</tr>
+			
+			<tr>
+				<td> 1 </td>
+				<td> 1 </td>
+				<td> 2 </td>
+				<td> 3 </td>
+				<td> 6 </td>
+			</tr>
+			
+			<tr>
+				<td> 2 </td>
+				<td> 4 </td>
+				<td> 5 </td>
+				<td> 6 </td>
+				<td> 15 </td>
+			</tr>
+			
+			<tr>
+				<td> 3 </td>
+				<td> 7 </td>
+				<td> 8 </td>
+				<td> 9 </td>
+				<td> 24 </td>
+			</tr>
+			
+			
+			
+	</body>
+	
+</html>

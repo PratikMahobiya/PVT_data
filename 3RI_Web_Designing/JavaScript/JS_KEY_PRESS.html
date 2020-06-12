@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript</title>
+	<script type="text/javascript">
+
+		function checkfunction()
+		{
+			alert("On KEY PRESS......!!!!");
+			
+		}
+		function  checkfunctiondown()
+		{
+			alert("ON KEY PRESS DOWN....!!");
+		}
+
+		function checkfunctionup()
+		{
+			alert("on KEY U EVENT...!!!");
+		}
+		function mouseoverfunc()
+		{
+			alert("mouse over eevent...!!!")
+		}
+		function mousemovefunc()
+		{
+			alert("mouse move eevent...!!!")
+		}
+		function mouseoutfunc()
+		{
+			alert("mouse out eevent...!!!")
+		}
+
+		console.log("hello...!!! Please Debug Here...!!!");
+	</script>
+</head>
+<body>
+	<form action="#">
+		onkeypress: <input type="text" onkeypress="checkfunction()"><br><br><br>
+		onkeypressdown: <input type="text" onkeypress="checkfunctiondown()"><br><br><br>
+		onkeypressup: <input type="text" onkeypress="checkfunctionup()"><br><br><br>
+		<span onmouseover="mouseoverfunc()">WELCOME EVERYBODY.....!!!</span>
+		<span onmousemove="mousemovefunc()">HELLO MOVE EVENT...!!!</span>
+		<span onmouseout="mouseoutfunc()">HELLO OUT EVENT...!!!!</span>
+	</form>
+	
+</body>
+</html>

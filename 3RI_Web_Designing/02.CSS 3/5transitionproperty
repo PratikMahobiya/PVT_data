@@ -1,0 +1,38 @@
+<html>
+
+	<head>
+	
+		<style>
+		
+			div
+			{
+				background-color:red;
+				width:100px;
+				height:100px;
+				border: 2px solid black;
+				
+				transition-property: width,height;
+				transition-duration: 2s;
+				transition-timing-function: linear;
+		
+			}
+			div:hover
+			{
+				width:200px;
+				height:200px;
+			}
+		
+		
+			
+		</style>
+	
+	<head>
+
+
+	<body>
+	
+		<div>  </div>
+	
+	</body>
+
+</html>

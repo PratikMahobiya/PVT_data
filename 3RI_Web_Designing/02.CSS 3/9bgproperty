@@ -1,0 +1,64 @@
+<html>
+
+	<head>
+	
+		<style>
+		
+			div
+			{	
+				/*background-color:aqua;
+				width:600px;
+				height:600px;
+				border: 2px solid black;
+				
+				background-image: url("00.jpg"), url("01.jpg");
+				background-repeat: no-repeat;
+				background-size: 200px 200px, 250px 250px;
+				background-position: left top, right bottom;*/
+			}
+			
+			#eg1
+			{
+				border: 15px double black;
+				background-repeat: no-repeat;
+				background-image: url("00.jpg");
+				padding:25px;
+				background-origin:padding-box;
+				
+				/* Background Click*/
+			}
+			#eg2
+			{
+				border: 15px double black;
+				background-repeat: no-repeat;
+				background-image: url("00.jpg");
+				padding:25px;
+				background-origin:border-box;
+			}
+			#eg3
+			{
+				border: 15px double black;
+				background-repeat: no-repeat;
+				background-image: url("00.jpg");
+				padding:25px;
+				background-origin:content-box;
+			}
+			
+			
+				
+		</style>
+	
+	<head>
+
+
+	<body>
+	
+		<div> <h1 id = "eg1"> Hello HTML! </h1> </div>
+		
+		<div> <h1 id = "eg2"> Hello HTML! </h1> </div>
+		
+		<div> <h1 id = "eg3"> Hello HTML! </h1> </div>
+	
+	</body>
+
+</html>

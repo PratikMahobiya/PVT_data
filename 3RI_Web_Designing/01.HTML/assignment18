@@ -1,0 +1,112 @@
+<html>
+
+	<head>
+		<meta name = "Geetanjali" containt = "Form 6">
+		<title> form Assignment 6 </title>
+	</head>
+	
+	<body>
+	
+		<form action = "" method = "">
+		<fieldset style = "background-color: orange">
+			<table>
+				<caption> Student Registration Form </caption>
+				
+					<tr>
+							<td> Name </td>
+							<td> <input type = "text"> </td>     
+					</tr>
+					<tr>
+							<td> Father Name </td>
+							<td> <input type = "text"> </td>     
+					</tr>
+					<tr>
+							<td> DOB </td>
+							<td> <input type = "date"> </td>     
+					</tr>
+					<tr>
+							<td> Sex </td>
+							<td> <input type = "radio" name = "gender">Male 
+								 <input type = "radio" name = "gender">Female
+							</td>     
+					</tr>
+					<tr>
+							<td> EmailId </td>
+							<td> <input type = "email"> </td>     
+					</tr>
+					<tr>
+							<td> Course </td>
+							<td> <input type = "text" list = "mylist" placeholder = "select"> 
+									<datalist id = "mylist">
+										
+										<option> SSC </option>
+										<option> HSC </option>
+										<option> BE </option>
+									
+									</datalist>
+							</td>     
+					</tr>
+					<tr>
+							<td> permanent Address </td>
+							<td> <textarea> </textarea> </td>     
+					</tr>
+					<tr>
+							<td> City </td>
+							<td> <input type = "text" list = "mylist" placeholder = "select"> 
+									<datalist id = "mylist">
+										
+										<option> AhmedNagar </option>
+										<option> Mumbai </option>
+										<option> Nashik </option>
+										<option> Pune </option>
+									
+									</datalist> 
+							
+							</td>     
+					</tr>
+					<tr>
+							<td> District </td>
+							<td> <input type = "text" list = "mylist" placeholder = "select"> 
+									<datalist id = "mylist">
+										
+										<option> AhmedNagar </option>
+										<option> Pune </option>
+										<option> Sangli </option>
+									
+									</datalist> 
+							
+							</td>     
+					</tr>
+					<tr>
+							<td> State </td>
+							<td> <input type = "text" list = "mylist" placeholder = "select"> 
+									<datalist id = "mylist">
+										
+										<option> Maharashtra </option>
+										<option> Delhi </option>
+										<option> Kerala </option>
+									
+									</datalist> 
+							
+							</td>     
+					</tr>
+					<tr>
+							<td> PinCode </td>
+							<td> <input type = "number"> </td>     
+					</tr>
+					<tr>
+							<td> Mobile No </td>
+							<td> <input type = "number"> </td>     
+					</tr>
+					<tr>
+							<td> <button type = "reset"> Reset <button> </td>
+							<td> <button type = "submit"> Submit Form<button> </td>
+					</tr>
+			
+			<table>
+		</fieldset>
+		</form>
+	
+	</body>
+	
+</html>	

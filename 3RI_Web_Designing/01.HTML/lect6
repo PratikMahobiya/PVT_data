@@ -1,0 +1,126 @@
+<html>
+
+	<head>
+			<meta name = "Geetanjali" containt = "Lecture 6">
+			<meta name = " Tags " containt = " Element and its Attributes">
+			<title> Form Tag 3 </title>
+			<base href ="https://www.google.com">
+	</head>
+	
+	<body>
+			<!--1. Address Tag > <-->
+			<address>
+					3RI tachnology, pimple saudagar, pimpri chinchavad.
+			</address>
+			
+			<!--1. Address Tag > <-->
+			<article>
+					<header>
+					</header>
+							<select>
+							
+							<select>
+					<footer>
+					</footer>
+			</article>
+			
+			<!--3. Base Tag > <-->
+			<a href = "" target = "_blank">Google </a>
+			<a href = "home.html" target = "_blank">Home </a>
+			<a href = "aboutus.html" target = "_blank">About Us </a>
+			<a href = "contact.html"target = "_blank">Contact us </a>
+			
+			<p> Classes And Objects
+				1.Create Account class with a default constructor and take input from user for accName,accNo and balance.
+				Write the following functions :
+				a)display()—to display details
+				b)deposit()---take amount as argument
+				c)withdraw()—take amount as argument—also print a message if the amount is insufficient..
+				d)checkBalance()—to display the total amount after deposit and withdraw.
+				2. Create Employee class with a default constructor and take input from user for empId,eName,salary.
+				Write a function to display employee details…
+				Create atleast three objects and call the display function respectively.
+				Find out the highest salary of an employee….
+				3.Create a class Book with a parameterized constructor
+				having Title, Book Publisher, Author .
+				Write a method to display the details of the Book and Test the class by creating 3 objects .
+				Input should be taken from user.. 
+			</p>
+			<!--4. blockquote Tag > <-->	
+			<p>
+				<blockquote>
+				
+					Classes And Objects
+					1.Create Account class with a default constructor and take input from user for accName,accNo and balance.
+					Write the following functions :
+					a)display()—to display details
+					b)deposit()---take amount as argument
+					c)withdraw()—take amount as argument—also print a message if the amount is insufficient..
+					d)checkBalance()—to display the total amount after deposit and withdraw.
+					2. Create Employee class with a default constructor and take input from user for empId,eName,salary.
+					Write a function to display employee details…
+					Create atleast three objects and call the display function respectively.
+					Find out the highest salary of an employee….
+					3.Create a class Book with a parameterized constructor
+					having Title, Book Publisher, Author .
+					Write a method to display the details of the Book and Test the class by creating 3 objects .
+					Input should be taken from user..
+				
+				</blockquote>
+			
+			</p>
+			
+			<p>
+				<blockquote>
+					 HTML:
+					
+						 Hypertext Markup Language.
+				</blockquote>
+			</p>
+			<p>
+				<blockquote>
+					 CSS:
+					
+						 Cascading Stylesheet.	
+				</blockquote>
+			</p>
+			<p>
+				<blockquote>
+					JS: 
+					
+						 Java Script.
+				</blockquote>
+			</p>
+			
+			<!--5. details Tag > <-->
+			
+			<details>
+					<summary> Java </summary>
+					
+						<p> it is OOP language. uhdfuhvbushdbvuhbchubvsihdbcvjhb </p>
+			</details>
+			
+			<details>
+					<summary> HTML </summary>
+					
+						<p> Hypertext Markup Language. </p>
+			</details>
+			<details>
+					<summary> CSS </summary>
+					
+						<p> Cascading Stylesheet. </p>
+			</details>
+			<details>
+					<summary> JS </summary>
+					
+						<p> Java Script. </p>
+			</details>
+			
+			<!--6. figure & figcaption Tag > <-->
+			
+			
+			
+	
+	</body>
+	
+</html>

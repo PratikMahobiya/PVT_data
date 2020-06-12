@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript</title>
+	<script type="text/javascript">
+		function j_date(argument) {
+			var d1= new Date();
+			document.write(d1);
+		}
+		function j_day(argument) {
+			var d1= new Date();
+			document.write(d1.getDay());
+		}
+		function j_month(argument) {
+			var d1= new Date();
+			document.write(d1.getMonth()+1);
+		}
+		function j_year(argument) {
+			var d1= new Date();
+			document.write(d1.getFullYear()+"<br>");
+			document.write(d1.getHours()+"<br>");
+			document.write(d1.getMinutes()+"<br>");
+			document.write(d1.getSeconds()+"<br>");
+		}
+		console.log("hello...!!! Please Debug Here...!!!");
+	</script>
+</head>
+<body>
+	<form action="#">
+		<button onclick="j_date();">CLick here..Date</button><br>
+		<button onclick="j_day();">CLick here..Day</button><br>
+		<button onclick="j_month();">CLick here..Month</button><br>
+		<button onclick="j_year();">CLick here..year</button><br>
+	</form>
+	
+</body>
+</html>

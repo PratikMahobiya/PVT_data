@@ -1,0 +1,68 @@
+Given a matrix of size M x N, reduce the matrix to a 1 x 1 matrix by performing the following operations repeatedly, in the given order.
+Operations:
+1. Add the first row elements to the corresponding elements of the second row.
+2. Subtract the first column elements from the corresponding elements of the second column.
+3. Add the last row elements to the corresponding elements of the second-last row.
+4. Subtract the last column elements from the corresponding elements of the second-last column.
+Note:
+
+In case of a single row( or column) skip the row( or column) operations.
+
+Input:
+
+4
+3
+1 2 3
+4 5 6
+4 5 6
+1 2 3
+
+Where,
+
+First-line contains the row count M.
+Second-line contains the column count N.
+Following M lines contain space separated N values.
+
+Output:
+-14
+
+Explanation:
+Given a matrix of 4 x 3,
+
+1  2  3
+4  5  6
+4  5  6
+1  2  3
+
+performing the 1st operation on the given matrix,
+
+(4+1) (5+2) (6+3)           5 7 9
+   4        5       6     -->     4 5 6
+   1        2       3               1 2 3
+
+performing the 2nd operation on the above matrix,
+
+(7-5)  9               2   9
+(5-4)  6     -->     1   6
+(2-1)  3               1   3
+
+performing the 3rd operation on the above matrix,
+
+   2        9     -->   2  9
+(1+1) (6+3)         2  9
+
+performing the 4th operation on the above matrix,
+
+(2-9)    -->     -7
+(2-9)              -7
+
+performing the 1st operation on the above matrix,
+
+(-7+(-7)) -->     -14
+
+-14 is the final output.
+
+Assumptions:
+
+Row size and column size can be in the range 1 to 50.
+Value of each matrix entry can be in the range -99999 to 99999.

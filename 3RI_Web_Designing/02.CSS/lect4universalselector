@@ -1,0 +1,26 @@
+<html>
+
+	<head>
+			<meta name = "Geetanjali" containt = "Lecture 4">
+			<meta name = "div Tag " containt = " ">
+			<title> External CSS  </title>
+	
+				<link href="external.css" rel = "stylesheet">
+		
+			
+	</head>
+			
+		<body>	
+			
+			<h1> Hello Everybody! </h1>
+			<p> Welcome to 3RI. </p>
+			<h2> Hello Everybody! </h2>
+			<h3> Hello Everybody! </h3>
+			<h4> Hello Everybody! </h4>
+			<h5> Hello Everybody! </h5>
+			<h6> Hello Everybody! </h6>
+
+				
+		</body>
+	
+</html>	

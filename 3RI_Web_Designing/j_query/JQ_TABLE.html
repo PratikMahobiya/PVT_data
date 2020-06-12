@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>J_QUERY</title>
+	<script type="text/javascript" src="JS_JQUERY.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("button").click(function(){
+				$("tr:odd").css('background','red');
+				$("tr:even").css('background','yellow');
+				$("th").css('background','grey');
+				$("td:first-child").css('background','green');
+				$("td:nth(4)").css('background','brown');
+				$("td:nth(10)").css({
+					"background":"blue",
+					"fontWeight":"bold",
+					"fontSize":"50px"
+				});
+			});
+		});
+	</script>
+</head>
+<body>
+	<h1>Table</h1>
+	<table border="1">
+		<tr>
+			<th>S_ID</th>
+			<th>S_NAME</th>
+			<th>S_NAME</th>
+		</tr>
+		<tr>
+			<td>101</td>
+			<td>Pratik</td>
+			<td>Pratik</td>
+		</tr>
+		<tr>
+			<td>102</td>
+			<td>Rahul</td>
+			<td>Pratik</td>
+		</tr>
+		<tr>
+			<td>103</td>
+			<td>Aditya</td>
+			<td>Pratik</td>
+		</tr>
+		<tr>
+			<td>104</td>
+			<td>Pal</td>
+			<td>Pratik</td>
+		</tr>
+		<tr>
+			<td>105</td>
+			<td>Rahul</td>
+			<td>Pratik</td>
+		</tr>
+		<tr>
+			<td>106</td>
+			<td>Sumit</td>
+			<td>Pratik</td>
+		</tr>
+		<tr>
+			<td>107</td>
+			<td>Waiker</td>
+			<td>Pratik</td>
+		</tr>
+		<tr>
+			<td>108</td>
+			<td>Pandey</td>
+			<td>Pratik</td>
+		</tr>
+		<tr>
+			<td>109</td>
+			<td>GOlu</td>
+			<td>Pratik</td>
+		</tr>
+	</table>
+	<button>CLICK  TO SEE MAGIC</button>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<html>
+
+	<head>
+			<meta name = "Geetanjali" containt = "Lecture 4">
+			<meta name = "div Tag " containt = " ">
+			<title> CSS DIV Tag 3 </title>
+			
+			<style>
+			
+					/*.a
+					{
+						height : 100px;
+						width : 200px;
+						background-color : red;
+						border: 1px solid black;
+						position : absolute;
+						left : 30px;
+						top : 50;
+						z-index:3;
+					}*/
+					/*.b
+					{
+						height : 100px;
+						width : 200px;
+						background-color : green;
+						border: 1px solid black;
+						position : absolute;
+						left : 50px;
+						top : 70;
+						z-index:2;
+					}*/
+					/*.c
+					{
+						height : 100px;
+						width : 200px;
+						background-color : blue;
+						border: 1px solid black;
+						position : absolute;
+						left : 70px;
+						top : 90;
+						z-index:1;
+					}*/
+					.q
+					{
+						/*display:none;*/
+						visibility:hidden;
+						height : 700px;
+					}
+			
+			
+			</style>
+	</head>
+	
+	<body>
+	
+		<!--<div class = "a"> Div 1 </div>
+		<div class = "b"> Div 2 </div>
+		<div class = "c"> Div 3 </div> -->
+		
+		<p class = "p"> Hello </p>
+		<p class = "q"> Good Morning! </p>
+		<p class = "r"> Welcome </p>
+		<p class = "s"> To 3RI. </p>
+		
+		<div>
+		
+			{
+			float me = 1.1;
+			double you = 1.1;
+			if(me==you)
+			printf("I love U");
+			else
+			printf("I hate U");
+			}
+			Answer:
+			I hate U
+			Explanation:
+			For floating point numbers (float, double, long double) the values cannot be
+			predicted exactly. Depending on the number of bytes, the precession with of the value
+			represented varies. Float takes 4 bytes and long double takes 10 bytes. So float stores 0.9 with
+			less precision than long double.
+			Rule of Thumb:
+			Never compare or at-least be cautious when using floating point numbers with
+			relational operators (== , >, <, <=, >=,!= ) .
+			4. main()
+			{
+			static int var = 5;
+			printf("%d ",var--);
+			if(var)
+			main();
+			}
+			Answer:
+			5 4 3 2 1
+			Explanation:
+			When static storage class is given, it is initialized once. The change in the
+			value of a static variable is retained even between the function calls. Main is also treated like
+			any other ordinary function, which can be called recursively.
+			5. main()
+			{
+			int c[ ]={2.8,3.4,4,6.7,5};
+			int j,*p=c,*q=c;
+			for(j=0;j<5;j++) {
+			printf(" %d ",*c);
+			++q; }
+			for(j=0;j<5;j++){
+			printf(" %d ",*p);
+			++p; }
+			}
+			Answer:
+			2 2 2 2 2 2 3 4 6 5
+			Explanation:
+		
+		</div>
+	
+	</body>
+	
+</html>	

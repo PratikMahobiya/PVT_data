@@ -1,0 +1,33 @@
+
+<html>
+
+	<head>
+		<meta name = "Geetanjali" contain = "Table 2">
+		<title> Table Assignment 2 </title>
+	</head>
+	
+	<body>
+		
+		<table border = "1">
+		<caption>
+		
+			<tr>
+				<th rowspan = "3">This is Spanning all three rows. </th>
+				<th colspan = "3">This is Spanning all three Columns. </th>
+			</tr>
+			
+			<tr>
+				<td> <img src = "C:/Users/Admin/Desktop/ALL IN 1/3RI TECHNOLOGY/Web Design/00.Images/a.jpg" height = "100px" width = "100px">Data </td>
+				<td> <img src = "C:/Users/Admin/Desktop/ALL IN 1/3RI TECHNOLOGY/Web Design/00.Images/b.jpg" height = "100px" width = "100px">Old Data </td>
+				<td> <img src = "C:/Users/Admin/Desktop/ALL IN 1/3RI TECHNOLOGY/Web Design/00.Images/c.jpg" height = "100px" width = "100px">Blast </td>
+			</tr>
+			
+			<tr>
+				<td> <img src = "C:/Users/Admin/Desktop/ALL IN 1/3RI TECHNOLOGY/Web Design/00.Images/d.jpg" height = "100px" width = "100px"> Red Data </td>
+				<td> <img src = "C:/Users/Admin/Desktop/ALL IN 1/3RI TECHNOLOGY/Web Design/00.Images/e.jpg" height = "100px" width = "100px">More Data </td>
+				<td> <img src = "C:/Users/Admin/Desktop/ALL IN 1/3RI TECHNOLOGY/Web Design/00.Images/f.jpg" height = "100px" width = "100px"> The last of the Details </td>
+			</tr>
+		</table>
+	
+	</body>
+</html>

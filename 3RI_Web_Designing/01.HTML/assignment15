@@ -1,0 +1,61 @@
+<html>
+
+	<head>
+		<meta name = "Geetanjali" containt = "Form 2">
+		<title> form Assignment 4 </title>
+	</head>
+	
+	<body>
+	
+		<form>
+	
+		<fieldset style = "background-color : green">
+			<legend> USER Form </legend>
+			
+			<ul>
+			
+				<li> FIRST NAME :
+						<input type = "text">
+				</li> <br/>
+				<li> PASSWORD :
+						<input type = "password">
+				</li> <br/>
+				<li> GENDER :
+						<input type = "radio" name = "gender"> Male
+						<input type = "radio" name = "gender"> Female
+				</li><br/>
+				<li> ADDRESS :
+						<textarea rows = "5" cols = "10"> </textarea>
+				</li><br/>
+				<li> D.O.B :
+						<input type = "date">
+				</li><br/>
+				<li> SELECT GAMES :	
+						<input type = "checkbox">Hockey
+						<input type = "checkbox">Football
+						<input type = "checkbox">Cricket
+						<input type = "checkbox">Volleyball
+				</li><br/>
+				<li> MARITAL STATUS :
+						<input type = "radio" name = "m1"> Married
+						<input type = "radio" name = "m1"> UnMarried
+				</li>
+			</ul>
+			
+			&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp 
+			&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp 
+			<button> Submit </button>
+			<button type = "reset"> Reset </button>
+			<br/><br/>
+			
+			&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp 
+			&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp 
+			<input type = "checkbox"> I accept this agrement
+	
+		</fieldset>
+		
+		</form>
+	
+	</body>
+
+</html>

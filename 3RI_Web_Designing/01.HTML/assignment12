@@ -1,0 +1,26 @@
+<html>
+
+	<head>
+		<meta name = "Geetanjali" containt = "Form 1">
+		<title> form Assignment 1 </title>
+	</head>
+	
+	<body>
+
+		<form>
+		
+			First name : <input type = "text">
+			<br/><br/>
+			Second name : <input type = "text">
+			<br/><br/>
+			Age : <input type = "text">
+			<br/><br/>
+			Gender : <input type = "radio" name = "gender"> Male
+					 <input type = "radio" name = "gender"> Female
+			<br/><br/>		 
+			Province : <input type = "text">
+		</form>
+
+	</body>
+
+</html>

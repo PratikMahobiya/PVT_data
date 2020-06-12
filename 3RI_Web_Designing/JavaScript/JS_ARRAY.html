@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript</title>
+	<script type="text/javascript">
+		function array() 
+		{
+			var x=["pratik","sajid","aditya"];
+			for (var i = x.length - 1; i >= 0; i--) 
+			{
+				document.write(i+"--------:- "+x[i]+"<br>");
+			}
+		}
+		function NEWarray_M1() 
+		{
+			var x = new Array();
+			x[0]="pratik";
+			x[1]="aditya";
+			x[2]="sajid";
+			for (var i = x.length - 1; i >= 0; i--) 
+			{
+				document.write(i+"--------:- "+x[i]+"<br>");
+			}
+		}
+		function NEWarray_M2() 
+		{
+			var x=new Array("pratik","abhishek","aditya")
+			for (var i = x.length - 1; i >= 0; i--) 
+			{
+				document.write(i+"--------:- "+x[i]+"<br>");
+			}
+		}
+		console.log("hello...!!! Please Debug Here...!!!");
+	</script>
+</head>
+<body>
+	<form action="#">
+		<button onclick="array();">CLick here......ARRAY!!!</button>
+		<button onclick="NEWarray_M1();">CLick here......NEWARRAY_m1!!!</button>
+		<button onclick="NEWarray_M2();">CLick here......NEWARRAY_m2!!!</button>
+	</form>
+	
+</body>
+</html>

@@ -1,0 +1,117 @@
+<html>
+	<head>
+			<meta name = "Geetanjali" containt = "Lecture 4">
+			<meta name = "Image Tag " containt = "Input Element and its Attributes">
+			<title> Form Tag 1 </title>
+	</head>
+	
+	<body>
+	
+		<form>
+		
+			Name :<input type= "text" value = "Geetanjali">
+			<br/> <br/>
+			Passwoed : <input type = "password">
+			<br/><br/>
+			fees Paid (CheckBox] : <input type = "CheckBox">
+			<br/><br/>
+			<u><i><b>Hobbies :</b></i></u> 
+			Reading : <input type = "CheckBox">
+			Writting: <input type = "CheckBox">
+			Watching Movies : <input type = "CheckBox">
+			<br/> <br/>
+			
+			<u><b> Gender :- </b></u>
+			male : <input type = "radio" name = "gender">
+			female : <input type = "radio" name = "gender">
+			<br/><br/>
+			
+			File : <input type = "file">
+			<br/><br/>
+			
+			Button : <input type = "button" value = "save">
+			<br/><br/>
+			
+			Submit:<input type = "submit" value = "update">
+			<br/><br/>
+			
+			Reset :<input type = "reset" value = "clear">
+			<br/><br/>
+			
+			Email :<input type = "email" value = "">
+					<input type = "submit">
+			<br/><br/>
+			
+			<!--Image :<input type = "image" src = "C:/Users/Admin/Desktop/ALL IN 1/3RI TECHNOLOGY/Web Design/01.HTML/geetanjali">
+			<br/><br/> !-->
+			
+			Date :<input type = "Date">
+			<br/><br/>
+			
+			Time :<input type = "time">
+			<br/><br/>
+			
+			Month :<input type = "month">
+			<br/><br/>
+			
+			Week :<input type = "Week">
+			<br/><br/>
+			
+			Date :<input type = "Date">
+			<br/><br/>
+			
+			URL :<input type = "url" >
+					<input type = "submit">
+			<br/><br/>
+			
+			Number :<input type = "number" step = "2" max = "100" min = "0">
+					<input type = "submit">
+			<br/><br/>
+			
+			Search :<input type = "search">
+			<br/><br/>
+			
+			Hidden :<input type = "hidden">
+			<br/><br/>
+			
+			Name :<input type= "text" value = "geetanjali" id = "txtname">
+			<br/><br/>
+			
+			<u><b> Gender :- </b></u>
+			male : <input type = "radio" name = "gender" checked = "checked">
+			female : <input type = "radio" name = "gender">
+			<br/><br/>
+			
+			Date :<input type = "Date" disabled = "disabled">
+			<br/><br/>
+			
+			Name :<input type= "text" value = "geetanjali" id = "txtname" autofocus = "autofocus">
+			<br/><br/>
+			
+			Email :<input type = "email" required = "required" placeholder = "Enter Email Id">
+					<input type = "submit">
+			<br/><br/>
+			
+			File : <input type = "file" multiple = "multiple">
+			<br/><br/>
+			
+			<b>Name</b> :<input type= "text" pattern = "^[A-Za-z _]*$">
+					<input type = "submit">
+			<br/><br/>
+			
+			Name :<input type= "text" pattern = "^[A-Za-z _]*$" autocomplete = "on">
+					<input type = "submit">
+			<br/><br/>
+			
+			Name :<input type= "text" pattern = "^[A-Za-z _]*$" autocomplete = "off">
+					<input type = "submit">
+			<br/><br/>
+			
+			Passwoed : <input type = "password" maxlength = "20">
+			<br/><br/>
+			
+		</form>
+	
+	</body>
+
+</html>

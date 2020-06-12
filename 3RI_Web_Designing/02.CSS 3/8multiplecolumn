@@ -1,0 +1,39 @@
+<html>
+
+	<head>
+	
+		<style>
+		
+				p
+				{
+					column-count: 3;
+					column-rule: 2px solid red;
+					column-gap:30px;
+					text-align:justify;
+					color:blue;
+				}
+			
+		</style>
+	
+	<head>
+
+	<body>
+	
+			<p> Sanskrit is an ancient language of India which continues its age
+				old form together with its several descendent languages in
+				different parts of India. Because of its continuity of language
+				form, it has been preserver of India’s millennia long tradition
+				which is documented in manuscripts, books, and in some part
+				in oral traditions. In the course of time, Sanskrit has lost much
+				of its heritage and its scope and usage may have become
+				restricted. Even then, a large number of texts on different
+				subjects and from different ages are still preserved. What we
+				have today should be saved from being lost. Easy means of
+				preservation and accessing may play important role in
+				preserving a significant part of the cultural heritage of India as
+				well as providing an insight into cultural past of the country. 
+			</p>
+	
+	</body>
+
+</html>

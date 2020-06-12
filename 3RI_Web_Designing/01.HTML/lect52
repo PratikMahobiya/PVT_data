@@ -1,0 +1,22 @@
+<html>
+
+	<head>
+			<meta name = "Geetanjali" containt = "Lecture 5">
+			<meta name = "Image Tag " containt = " Element and its Attributes">
+			<title> Form Tag 3 </title>
+	</head>
+	
+	<body>
+	
+		<form action = "C:/Users/Admin/Desktop/form.html" method = "post" autocomplete = "off" novalidate>
+		
+			Name : <input type = "text" name = "textname" id = "textname">
+					<input type = "submit">
+			Email : <input type = "email">
+					<input type = "submit">
+			
+		</form>
+	
+	<body>
+	
+</html>	

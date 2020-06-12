@@ -1,0 +1,53 @@
+<html>
+
+	<head>
+			<meta name = "Geetanjali" containt = "Lecture 4">
+			<meta name = "Image Tag " containt = " Element and its Attributes">
+			<title> Form Tag 3 </title>
+	</head>
+	
+	<body>
+	
+		<form>
+		
+			<fieldset>
+				<legend> Personal Particular </legend>
+				
+					Name : <input type = "text"> <br/><br/>
+					Password : <input type = "Password"> <br/><br/>
+					Gender : <input type = "radio" name = "gender"> Male 
+							  <input type = "radio" name = "gender"> Female <br/><br/>
+					Age : <input type = "text" list = "list">
+						  <datalist id = "list">
+								    <option>  10 </option>
+									<option>  20 </option>
+									<option>  30 </option>
+									<option> 40 </option>
+									<option> 50</option>
+				
+						  </datalist>
+			</fieldset>
+			<fieldset>
+				<legend> Languages </legend>
+						 <input type = "checkbox"> JAVA
+						 <input type = "checkbox"> C/C++
+						 <input type = "checkbox"> C#
+
+			</fieldset>
+			<fieldset>
+				<legend> Instruction </legend>
+						 
+						 <textarea rows = "5" cols = "20" placeholder = "Enter your Instruction here...">
+						 
+						 </textarea>
+
+			</fieldset> <br/>
+			<button> SEND <button>
+			<button type = "reset"> CLEAR <button>
+	
+			
+		</form>
+	
+	<body>
+	
+</html>	

@@ -1,0 +1,49 @@
+<html>
+
+	<head>
+	
+		<style>
+		
+			div
+			{
+				background-color:red;
+				
+				
+				
+				
+				width:100px;
+				height:100px;
+				border: 2px solid black;
+				
+				position: relative;
+				animation-name: myanimation;
+				animation-duration: 3s;
+				animation-timing-function:iterative;
+				animation-iteration-count: infinite;
+				animation-direction:reverse;
+			}
+			@keyframes myanimation
+			{
+				from{left:0%}
+				to{left:0%}
+				
+				0%{background-color:blue}
+				20%{background-color:black}
+				40%{background-color:green}
+				60%{background-color:aqua}
+			}
+		
+		
+		
+		</style>
+	
+	<head>
+
+
+	<body>
+	
+		<div>  </div>
+	
+	</body>
+
+</html>

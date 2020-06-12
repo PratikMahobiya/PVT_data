@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript</title>
+	<script type="text/javascript">
+		function validation(argument) {
+			var name=document.getElementById("fname").value;
+			var pass=document.getElementById("fpassword").value;
+			if (name=="")
+			{
+				alert("Please enter name..");
+				return false;
+			}
+			else if (pass=="")
+			{
+				alert("Please enter password..");
+				return false;
+			}
+			else
+				return true;
+		}
+		function New_validation(argument) {
+			var name=document.getElementById("f_name").value;
+			var pass=document.getElementById("f_password").value;
+			if (name=="")
+			{
+				document.getElementById("errormessageuser").innerHTML="Please Enter User Name";
+				document.getElementById("errormessageuser").style.color="red";
+				return false;
+			}
+			else if (pass=="")
+			{
+				document.getElementById("errormessageuser").innerHTML="";
+				document.getElementById("errormessagepass").innerHTML="Please Enter password";
+				document.getElementById("errormessagepass").style.color="red";
+				return false;
+			}
+			else
+				return true;
+		}
+		
+		console.log("hello...!!! Please Debug Here...!!!");
+	</script>
+</head>
+<body>
+	<h1>Login ALert</h1>
+	
+	<form action="JS_DATE.html" method="post" onsubmit="return validation();">
+		Name: <input type="text" id="fname"><br><br><br>
+		password: <input type="password" id="fpassword"><br><br><br>
+		Submit: <input type="Submit"><br><br><br>
+	</form><br><br><br><br><br><br>
+
+	<h1>Login innerHTML</h1>
+
+	<form action="JS_DATE.html" method="post" onsubmit="return New_validation();">
+		Name: <input type="text" id="f_name">
+		<span id="errormessageuser"></span><br><br><br>
+		password: <input type="password" id="f_password">
+		<span id="errormessagepass"></span><br><br><br>
+		Submit: <input type="Submit"><br><br><br>
+	</form>
+	
+</body>
+</html>
