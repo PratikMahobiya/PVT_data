@@ -1,6 +1,4 @@
-#!/usr/bin/env python2
-# -*- coding: utf-8 -*-
-import sqlite3 as lite
+simport sqlite3 as lite
 import sys
 con = None
 try:
@@ -8,9 +6,7 @@ try:
     cur = con.cursor()
     
     query = "CREATE  TABLE BASIC(Id TEXT,Name TEXT, Age INT)"
-    
-    
-    
+       
 #    cur.execute('SELECT SQLITE_VERSION()')
     cur.execute(query)
 #    data = cur.fetchone()[0]

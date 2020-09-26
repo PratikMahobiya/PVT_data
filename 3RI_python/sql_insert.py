@@ -1,5 +1,3 @@
-#!/usr/bin/env python2
-# -*- coding: utf-8 -*-
 import sqlite3 as lite
 con = None
 try:
@@ -14,7 +12,6 @@ finally:
     name='pratik'
     Id='aq12'
     age=22
-    
     query1="insert into BASIC values('{}','{}',{})".format(Id,name,age)
     cur.execute(query1)
     con.commit()

@@ -38,7 +38,7 @@ orders = []; amts = []
 amount = 0
 
 print ("\nEnter the dish number. Enter 0 if you want to finish ordering")
-s += "----------------Bill-----------------------------\n"
+s += "\n\n----------------Bill-----------------------------\n"
 while attempts < 5:	
 	try:
 		order = int(input("Dish: "))
@@ -61,6 +61,8 @@ print ("Your total= ",amount)
 
 for i, order in enumerate(orders):
 	s += order + " "*(max_length-len(order)) + str(amts[i]) + "\n"
+
+print(s)
     
 s += "Your total= " + str(amount)
 

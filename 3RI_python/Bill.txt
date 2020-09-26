@@ -10,10 +10,9 @@
 9	|Japanese                                |103
 10	|Thai                                    |32
 11	|Pan Asian                               |234
+
+
 ----------------Bill-----------------------------
-North Indian                            354
+Thai                                    32
 BBQ                                     1200
-Continental                             1243
-Mediterranean                           523
-Mediterranean                           245
-Your total= 3565
+Your total= 1232
