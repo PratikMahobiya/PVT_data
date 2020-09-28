@@ -13,7 +13,7 @@ message = client.messages \
                      body="Someone is detected",
                      media_url=['http://s3-ap-southeast-1.amazonaws.com/aonapps/test/image.jpg'],
                      from_='whatsapp:+14155238886',
-                     to='whatsapp:+917000681073'
+                     to='whatsapp:+91xxxxxxxxxx'
                  )
 
 # message = client.messages.create(
