@@ -39,7 +39,7 @@ while(True):
         account_sid = 'YOUT TWILIO SID'
         auth_token = 'YOUR TWILIO TOKEN'
         client = Client(account_sid, auth_token)
-        mobile_number = {"Pratik":'+917000681073', "Nikhil":'+917415533803'}
+        mobile_number = {"Pratik":'xxxxxxxxxx', "Nikhil":'xxxxxxxxxx'}
         for name, num in mobile_number.items():
             message = client.messages \
                         .create(
