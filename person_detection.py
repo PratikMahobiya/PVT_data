@@ -36,8 +36,8 @@ while(True):
     # print ("value:   ",boxes)
 
     if len(boxes) != 0:
-        account_sid = 'ACfa44115d0ff5f4602437ca7a4130b110'
-        auth_token = 'e054d9870d54ba655fa932e3ffabb83d'
+        account_sid = 'YOUT TWILIO SID'
+        auth_token = 'YOUR TWILIO TOKEN'
         client = Client(account_sid, auth_token)
         mobile_number = {"Pratik":'+917000681073', "Nikhil":'+917415533803'}
         for name, num in mobile_number.items():
